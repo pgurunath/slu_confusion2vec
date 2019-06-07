@@ -2367,7 +2367,7 @@ BOS what is the earliest departure time from boston to denver EOS	O O O O B-flig
 BOS flights from boston to pittsburgh EOS	O O O B-fromloc.city_name O B-toloc.city_name 	atis_flight	atis3/17_2.1/atis3/sp_trn/cmu/i0m/9/i0m049ss.wav
 BOS information of a flight from atlanta to pittsburgh EOS	O O O O O O B-fromloc.city_name O B-toloc.city_name 	atis_flight	atis2/12_4_1/atis2/spon/train/att/z0l/7/z0l0d7ss.wav
 BOS show me flights from atlanta to washington EOS	O O O O O B-fromloc.city_name O B-toloc.city_name 	atis_flight	atis2/12_3_1/atis2/spon/train/sri/sf0/2/sf0012sc.wav
-BOS round trip flights from minneapolis to san diego coach economy fare EOS	O B-round_trip I-round_trip O O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name B-class_type B-economy O 	atis_flight	atis3/17_2.1/atis3/sp_trn/bbn/g04/2/g04072ss.wav
+BOS round trip flights from minneapolis to san diego coach economy fare EOS	O B-round_trip I-round_trip O O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name B-class_type B-economy O 	atis_flight	<UNMATCHED>
 BOS show me the flights out of love field EOS	O O O O O O O B-fromloc.airport_name I-fromloc.airport_name 	atis_flight	atis3/17_2.1/atis3/sp_trn/bbn/g0h/3/g0h073ss.wav
 BOS what is the latest flight from philadelphia to boston EOS	O O O O B-flight_mod O O B-fromloc.city_name O B-toloc.city_name 	atis_flight	atis2/12_2_1/atis2/spon/train/mit/580/2/580032ss.wav
 BOS what are the flights from st. louis to burbank sunday evening EOS	O O O O O O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name B-depart_date.day_name B-depart_time.period_of_day 	atis_flight	atis3/17_2.1/atis3/sp_trn/mit/8l3/5/8l3065sc.wav
