@@ -1,7 +1,7 @@
 # Spoken Language Intent Detection using Confusion2Vec
 
 ## Introduction
-This repo contains the data used in our paper: [Spoken Language Intent Detection using Confusion2Vec](https://arxiv.org/pdf/1904.03576.pdf). In our paper, we proposed an approach for robust intent detection on noisy ASR transcripts using Confusion2Vec embeddings. The data in this repo contains the normalized reference transcripts, the correspoonding intent and slot labels for the reference transcripts, and the mapped audio samples in ATIS. The mapped audio samples were used to generate ASR outputs on which we evaluated our model's intent detection performance.
+This repo contains the data used in our paper: [Spoken Language Intent Detection using Confusion2Vec](https://arxiv.org/pdf/1904.03576.pdf). In our paper, we proposed an approach for robust intent detection on noisy ASR transcripts using Confusion2Vec embeddings. The data in this repo contains the normalized reference transcripts, the corresponding intent and slot labels for the reference transcripts, and the mapped audio samples in ATIS. The mapped audio samples were used to generate ASR outputs on which we evaluated our model's intent detection performance.
 
 ## Data Convention
 The data convention is as follows: \<reference transcript\>\<slot label\>\<intent label\>\<path to audio file in ATIS\>, delimited by tab charaters. Our data is consistent with the [JointSLU](https://github.com/yvchen/JointSLU) repo, with the mapped audio samples added. Note, for these two utterances:
